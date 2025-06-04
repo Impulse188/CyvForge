@@ -12,7 +12,7 @@ public class KeybindingSetlb extends CyvKeybinding {
     @Override
     public void onTickEnd(boolean isPressed) {
         if (isPressed) {
-            CommandSetlb.setlb(target);
+            CommandSetlb.run({"Target"});
         }
     }
 }
